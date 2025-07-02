@@ -1,0 +1,30 @@
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# Build directory (if you use one for output files)
+build/
+
+# VS Code settings (uncomment if you want to ignore workspace settings)
+# .vscode/
+
+# PDF files (uncomment if you don’t want to commit compiled PDFs)
+# *.pdf
+
+# Backup files (Emacs, Vim, etc)
+*~
+*.bak
+*.swp
