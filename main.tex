@@ -1,0 +1,38 @@
+\documentclass{report}
+
+% Load packages and settings from a separate file
+\input{preamble}
+\usepackage{natbib}  % or biblatex if you prefer
+
+\title{%
+  COMP30151/52 Coursework \\
+  \large Final Year Project \\
+  \textbf{}
+}
+\author{Your Name Here \\
+NXXXXXXX}
+\date{XX/XX/XX}
+
+\begin{document}
+
+\maketitle
+
+\include{abstract}
+\include{acknowledgements}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+
+\include{chapter1_introduction}
+\include{chapter2_context}
+\include{chapter3_new_ideas}
+\include{chapter4_implementation}
+\include{chapter5_results}
+\include{chapter6_conclusion}
+
+\bibliographystyle{agsm}
+\bibliography{references}
+
+\end{document}
